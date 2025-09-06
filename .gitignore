@@ -1,0 +1,36 @@
+# Ignore Python cache and virtual environments
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+*.sqlite3
+.env
+venv/
+env/
+.venv/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore system/OS files
+.DS_Store
+Thumbs.db
+
+# Ignore database dumps and backups
+*.bak
+*.sql~
+
+# Ignore Excel temporary files
+~$*.xlsx
+
+# Ignore Tableau temporary files
+*.twb.lock
+
+# Ignore IDE/editor configs
+.vscode/
+.idea/
+*.swp
+
+# Ignore log files
+*.log
